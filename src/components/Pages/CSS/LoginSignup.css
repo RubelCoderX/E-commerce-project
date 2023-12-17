@@ -8,7 +8,7 @@
 }
 .loginsignup-container{
     width: 580px;
-    height: 600px;
+    height: 700px;
     background: white;
     margin: auto;
     padding: 40px 60px;
@@ -34,7 +34,7 @@
     color: #5c5c5c;
     font-size: 18px;
 }
-.loginsignup-container button{
+.continue{
     width:570px;
     height: 72px;
     color: white;
@@ -53,6 +53,41 @@
     font-size:18px;
     font-weight: 500;
     margin-left: 16px;
+}
+.loginsignup-login p{
+    text-align: center;
+}
+.google-icon{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.github-icon{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.google,.icon{
+    font-size: 30px;
+    color: purple;
+}
+.other-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.facebook-icon:hover{
+    border: 1px solid blue;
 }
 .loginsignup-login span{
     color:#ff4141;
